@@ -1,3 +1,5 @@
+from keep_alive import keep_alive
+keep_alive()
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import API_ID, API_HASH, BOT_TOKEN, MOVIE_CHANNEL
